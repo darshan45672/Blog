@@ -14,7 +14,7 @@
         <div class="mb-16">
             <h2 class="mt-16 mb-5 text-3xl text-yellow-500 font-bold">Featured Posts</h2>
             <div class="w-full">
-                <div class="grid grid-cols-3 gap-10 w-full">
+                <div class="grid grid-cols-3 gap-5 w-full">
                     <div class="md:col-span-1 col-span-3">
                         <a href="http://127.0.0.1:8000/blog/laravel-34">
                             <div>
@@ -34,39 +34,6 @@
                             <a class="text-xl font-bold text-gray-900">Laravel 10 tutorial feed page #34</a>
                         </div>
 
-                    </div>
-                    <div class="md:col-span-1 col-span-3">
-                        <a href="http://127.0.0.1:8000/blog/fil3tutorial">
-                            <div>
-                                <img class="w-full rounded-xl"
-                                    src="http://127.0.0.1:8000/storage/4sEsCDleYEXT4GC7AdU8BP7TBab3cx-metaZmlsYW1lbnQgY291cnNlICg0KS5wbmc=-.png">
-                            </div>
-                        </a>
-                        <div class="mt-3">
-                            <div class="flex items-center mb-2">
-                                <a href="http://127.0.0.1:8000/categories/PHP" class="bg-blue-400 
-                                    text-white 
-                                    rounded-xl px-3 py-1 text-sm mr-3">
-                                    PHP</a>
-                                <p class="text-gray-500 text-sm">2023-09-04</p>
-                            </div>
-                            <a class="text-xl font-bold text-gray-900">Filament 3 relationship manager tutorial
-                            </a>
-                        </div>
-
-                    </div>
-                    <div class="md:col-span-1 col-span-3">
-                       
-                            <div>
-                                <img class="w-full rounded-xl"
-                                    src="https://via.placeholder.com/640x480.png/0000ee?text=corrupti">
-                            </div>
-                            <div class="mt-3">
-                                <div class="flex items-center mb-2">
-                                    <p class="text-gray-500 text-sm">2023-08-29</p>
-                                </div>
-                                <a class="text-xl font-bold text-gray-900">Mary Berge</a>
-                            </div>
                     </div>
                 </div>
             </div>
