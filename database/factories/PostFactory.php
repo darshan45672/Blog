@@ -17,12 +17,14 @@ class PostFactory extends Factory
      */
     public function definition(): array
     {
+        $paragraphs = $this->faker->paragraphs(10);
+        $body = implode("\n", $paragraphs);
         return [
             'user_id' => User::factory(),
             'title' => $this->faker->sentence(),
             'slug' => $this->faker->slug(3),
             'image' => $this->faker->imageUrl(),
-            'body' => $this->faker->paragraphs(10),
+            'body' => $this->faker->paragraphs(),
             'published_at' => $this->faker->dateTimeBetween('-1 week', '+1 week'),
             'featured' => $this->faker->boolean(10),
         ];
